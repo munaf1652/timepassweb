@@ -1,0 +1,80 @@
+body{
+    background-color: black !important;
+}
+#logo{
+    font-size: 35px;
+    font-family:sans-serif;
+}
+.time{
+    text-align: center;
+    background-color: black;
+}
+
+.storys{
+    margin-top:15px;
+    margin-left:15px;
+    
+    height:275px;
+    width:460px;
+    border:lightgreen 5px;
+} 
+.storys:hover{
+    transform:scale(1.05);
+}
+ 
+.container{
+    display: flex;
+    overflow-x: scroll;
+    padding: 44px;
+    width:400px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap:12px;
+ 
+}
+.container .item{
+    flex: 0 0 100px; 
+    border-radius: 8px;
+    scroll-snap-align: start;
+}
+.container .item .vidoply{
+    height:400px;
+    width: 650px;
+}
+#main{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#size{
+    background-color:white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#signupbtn{
+    width:80px;
+    padding:8px;
+    margin-left:10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    background-color: #6c757d;
+}
+ 
+ 
+@media only screen and (min-width: 1268px) {
+    .navadj{
+        margin-left:30% ;
+    }
+}
+
+.sss{
+    background-color: transparent !important;
+}
+img{
+    border-radius: 10px;
+}
+.sec
+{
+    background-color: black;
+    width: auto;
+}
